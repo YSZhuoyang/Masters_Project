@@ -1,20 +1,14 @@
-# Masters_Project
-This is the masters project (half year long), which is named RideShare-OZ. Users are allowed to offer rides which is visible to others. Users can search rides and they can join if they are interested. Furthermore, admins are allowed to manage the groups and events.
+## Masters_Project
+A client - server app, where users are allowed to offer rides which is visible to others. Users can also search rides and then join them if they are interested. Furthermore, admins are allowed to manage the groups and events.
 
-note: This is not the delivery build.
+* The client inlcudes an android app and a website. The android app allows users to share or search rides, or find public events. And the web is used by administrators to create / manage groups. Only users in the same group are able to visit each other's information.
+* The ride offering and searching are powered by Google Geocoding, Autcomplete api.
+* The user authentication is implemented with Google auth.
+* The server contains a set of APIs implemented with Node.JS, integrated with MongoDB.
 
-![](/screenshots/1.png?raw=true "Sign in")
-![](/screenshots/3.png?raw=true "My rides")
-![](/screenshots/4.png?raw=true "Join a group")
-![](/screenshots/5.png?raw=true "Leave a group")
-![](/screenshots/6.png?raw=true "View groups")
-![](/screenshots/7.png?raw=true "Offer a ride within a group")
-![](/screenshots/8.png?raw=true "Offer a ride to an event")
-![](/screenshots/9.png?raw=true "Offer a ride to an event")
-![](/screenshots/10.png?raw=true "Search for a ride")
-![](/screenshots/11.png?raw=true "Search results")
-![](/screenshots/12.png?raw=true "Join a ride")
-![](/screenshots/13.png?raw=true "Accept / reject a join request")
-![](/screenshots/14.png?raw=true "Leave a ride")
-![](/screenshots/15.png?raw=true "View events")
-
+## Contributors
+* George Shehata
+* Qianwen Zhang
+* Sangzhuoyang Yu
+* Huixiang Zheng
+* Junjie Xu
